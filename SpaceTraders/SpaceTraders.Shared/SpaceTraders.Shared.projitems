@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c5dfb8d9-66e3-40da-adbe-7a7bf11f73fd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SpaceTraders</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Goods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Marketplace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Shipyard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\AbstractPresizedList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\GameInstance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\HasSkills.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Planet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\PresizedList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Resource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Ship.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\SkillSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\SolarSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\TechLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\core\Utilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\EventFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\EventStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\FuelStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\GoodsStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\MoneyStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\NullStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\events\RandomEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\AbstractCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\AbstractGadget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\CargoGadget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\CloakingGadget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\CommandPattern.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\Crew.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\FuelGadget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\HasPrice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\Shield.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\Weapon.cs" />
+  </ItemGroup>
+</Project>

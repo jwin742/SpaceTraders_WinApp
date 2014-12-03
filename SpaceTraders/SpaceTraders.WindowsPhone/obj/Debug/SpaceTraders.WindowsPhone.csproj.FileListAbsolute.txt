@@ -1,0 +1,10 @@
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
