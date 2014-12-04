@@ -15,21 +15,21 @@ public class MoneyStrategy : EventStrategy {
      * Phrases for gaining money.
      */
     private String[] addPhrases = {
-            "Your last lotto ticket was worth %d! credits",
-            "%d credits fell into your hand!",
-            "You found %d credits in your back pocket!",
-            "An old man gave you %d credits (and a weird wink...)",
+            "Your last lotto ticket was worth {0}! credits",
+            "{0} credits fell into your hand!",
+            "You found {0} credits in your back pocket!",
+            "An old man gave you {0} credits (and a weird wink...)",
             "You helped a little old lady carry her groceries "
-                            + "to the car and she gave you %d credits!"};
+                            + "to the car and she gave you {0} credits!"};
 
     /**
      * Phrases for losing money.
      */
-    private String[] minusPhrases = {"You lost %d credits playing a shell game!",
-            "%d credits fell out of your pocket! Oops!",
-            "You were mugged and had %d credits stolen!",
-            "Unexpected taxes in this market cost you %d credits!",
-            "You gave %d credits to a crying orphan!"};
+    private String[] minusPhrases = {"You lost {0} credits playing a shell game!",
+            "{0} credits fell out of your pocket! Oops!",
+            "You were mugged and had {0} credits stolen!",
+            "Unexpected taxes in this market cost you {0} credits!",
+            "You gave {0} credits to a crying orphan!"};
 
     
     public String execute(Player player) {

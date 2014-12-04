@@ -12,8 +12,8 @@ public class FuelStrategy : EventStrategy {
     /**
      * Phrases for losing fuel.
      */
-    private String[] losePhrases = {"%d units of your fuel leaked out!",
-            "A thief stole %d units of fuel!"}; //i'm all out of ideas for phrases now
+    private String[] losePhrases = {"{0} units of your fuel leaked out!",
+            "A thief stole {0} units of fuel!"}; //i'm all out of ideas for phrases now
 
     
     public String execute(Player player) {

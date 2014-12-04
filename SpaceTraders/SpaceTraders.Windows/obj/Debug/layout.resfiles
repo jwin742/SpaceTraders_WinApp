@@ -5,4 +5,8 @@ Assets\StoreLogo.scale-100.png
 App.xbf
 ConfigScreen.xbf
 MainPage.xbf
+MapScreen.xbf
+MarketScreen.xbf
+PlanetScreen.xbf
+ShipyardScreen.xbf
 SpaceTraders.Windows.xr.xml

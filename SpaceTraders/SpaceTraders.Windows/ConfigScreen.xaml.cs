@@ -53,7 +53,7 @@ namespace SpaceTraders
             player.addMoney(10000);
             game.setPlayer(player);
             game.createUniverse();
-            //TODO Navigate to mapscreen
+            this.Frame.Navigate(typeof (MapScreen));
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)

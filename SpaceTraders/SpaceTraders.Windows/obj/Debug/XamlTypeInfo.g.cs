@@ -124,17 +124,25 @@ namespace SpaceTraders.SpaceTraders_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "SpaceTraders.ConfigScreen";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "SpaceTraders.MainPage";
+            _typeNameTable[4] = "SpaceTraders.MapScreen";
+            _typeNameTable[5] = "SpaceTraders.MarketScreen";
+            _typeNameTable[6] = "SpaceTraders.PlanetScreen";
+            _typeNameTable[7] = "SpaceTraders.ShipyardScreen";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::SpaceTraders.ConfigScreen);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::SpaceTraders.MainPage);
+            _typeTable[4] = typeof(global::SpaceTraders.MapScreen);
+            _typeTable[5] = typeof(global::SpaceTraders.MarketScreen);
+            _typeTable[6] = typeof(global::SpaceTraders.PlanetScreen);
+            _typeTable[7] = typeof(global::SpaceTraders.ShipyardScreen);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -171,6 +179,10 @@ namespace SpaceTraders.SpaceTraders_Windows_XamlTypeInfo
 
         private object Activate_0_ConfigScreen() { return new global::SpaceTraders.ConfigScreen(); }
         private object Activate_3_MainPage() { return new global::SpaceTraders.MainPage(); }
+        private object Activate_4_MapScreen() { return new global::SpaceTraders.MapScreen(); }
+        private object Activate_5_MarketScreen() { return new global::SpaceTraders.MarketScreen(); }
+        private object Activate_6_PlanetScreen() { return new global::SpaceTraders.PlanetScreen(); }
+        private object Activate_7_ShipyardScreen() { return new global::SpaceTraders.ShipyardScreen(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -200,6 +212,34 @@ namespace SpaceTraders.SpaceTraders_Windows_XamlTypeInfo
             case 3:   //  SpaceTraders.MainPage
                 userType = new global::SpaceTraders.SpaceTraders_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  SpaceTraders.MapScreen
+                userType = new global::SpaceTraders.SpaceTraders_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MapScreen;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  SpaceTraders.MarketScreen
+                userType = new global::SpaceTraders.SpaceTraders_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_MarketScreen;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  SpaceTraders.PlanetScreen
+                userType = new global::SpaceTraders.SpaceTraders_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_PlanetScreen;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  SpaceTraders.ShipyardScreen
+                userType = new global::SpaceTraders.SpaceTraders_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_ShipyardScreen;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

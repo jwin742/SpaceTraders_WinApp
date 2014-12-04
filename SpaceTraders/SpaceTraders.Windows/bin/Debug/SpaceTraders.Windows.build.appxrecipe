@@ -38,6 +38,18 @@
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\MapScreen.xbf">
+      <PackagePath>MapScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\MarketScreen.xbf">
+      <PackagePath>MarketScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\PlanetScreen.xbf">
+      <PackagePath>PlanetScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\ShipyardScreen.xbf">
+      <PackagePath>ShipyardScreen.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\ConfigScreen.xbf">
       <PackagePath>ConfigScreen.xbf</PackagePath>
     </AppxPackagedFile>

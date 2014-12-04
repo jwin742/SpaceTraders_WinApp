@@ -15,17 +15,17 @@ public class GoodsStrategy : EventStrategy {
     /**
      * Phrases for losing an item.
      */
-    private String[] losePhrases = {"Your %s fell out of your ship!", "A thief stole your %s!",
-            "Your %s broke!",
-            "Your %s was in a freak cargo accident" + " and is no longer sellable!",
-            "You can't seem to remember where you put that %s..."};
+    private String[] losePhrases = {"Your {0} fell out of your ship!", "A thief stole your {0}!",
+            "Your {0} broke!",
+            "Your {0} was in a freak cargo accident" + " and is no longer sellable!",
+            "You can't seem to remember where you put that {0}..."};
 
     /**
      * Phrases for gaining an item.
      */
-    private String[] getPhrases = {"You found %s floating in space!",
-            "A retiring trader gave you his last %s!", "%s fell from the sky into your hands!",
-            "A shady looking man gave you his %s and ran away!", "You found free %s under a bush!"};
+    private String[] getPhrases = {"You found {0} floating in space!",
+            "A retiring trader gave you his last {0}!", "{0} fell from the sky into your hands!",
+            "A shady looking man gave you his {0} and ran away!", "You found free {0} under a bush!"};
 
 
     

@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-03T11:08:25.298</Modified>
+      <Modified>2014-12-04T09:19:36.732</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\SpaceTraders.Windows.exe">
       <PackagePath>SpaceTraders.Windows.exe</PackagePath>
-      <Modified>2014-12-03T11:46:47.986</Modified>
+      <Modified>2014-12-04T11:41:47.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -52,21 +52,37 @@
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-12-02T03:33:32.026</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\MapScreen.xbf">
+      <PackagePath>MapScreen.xbf</PackagePath>
+      <Modified>2014-12-04T11:41:46.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\MarketScreen.xbf">
+      <PackagePath>MarketScreen.xbf</PackagePath>
+      <Modified>2014-12-04T09:19:35.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\PlanetScreen.xbf">
+      <PackagePath>PlanetScreen.xbf</PackagePath>
+      <Modified>2014-12-04T11:41:46.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\ShipyardScreen.xbf">
+      <PackagePath>ShipyardScreen.xbf</PackagePath>
+      <Modified>2014-12-04T09:19:35.034</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\ConfigScreen.xbf">
       <PackagePath>ConfigScreen.xbf</PackagePath>
-      <Modified>2014-12-03T11:46:47.335</Modified>
+      <Modified>2014-12-04T07:41:38.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-12-03T11:46:47.336</Modified>
+      <Modified>2014-12-03T23:08:20.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\SpaceTraders.Windows.xr.xml">
       <PackagePath>SpaceTraders.Windows.xr.xml</PackagePath>
-      <Modified>2014-12-03T11:46:47.286</Modified>
+      <Modified>2014-12-04T11:27:06.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-03T11:08:24.935</Modified>
+      <Modified>2014-12-04T09:19:36.273</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

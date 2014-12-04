@@ -6,7 +6,8 @@ using System;
  * @author Nick
  *
  */
-public class Planet {
+public class Planet
+{
 
     /**
      * Resource for this planet.

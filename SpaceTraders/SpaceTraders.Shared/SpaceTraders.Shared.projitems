@@ -15,6 +15,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MapScreen.xaml.cs">
+      <DependentUpon>MapScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MarketScreen.xaml.cs">
+      <DependentUpon>MarketScreen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Goods.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Marketplace.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)model\commerce\Shipyard.cs" />
@@ -48,5 +54,29 @@
     <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\HasPrice.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\Shield.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)model\upgrades\Weapon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlanetScreen.xaml.cs">
+      <DependentUpon>PlanetScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ShipyardScreen.xaml.cs">
+      <DependentUpon>ShipyardScreen.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MapScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MarketScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)PlanetScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)ShipyardScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>
