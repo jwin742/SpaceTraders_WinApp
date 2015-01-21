@@ -579,3 +579,4 @@ namespace SpaceTraders.SpaceTraders_Windows_XamlTypeInfo
 }
 
 
+

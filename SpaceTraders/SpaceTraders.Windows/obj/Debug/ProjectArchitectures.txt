@@ -1,1 +1,1 @@
-C:\Users\Joshua\documents\visual studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\SpaceTraders.Windows.csproj;neutral
+C:\Users\Joshua\Documents\Visual Studio 2013\Projects\SpaceTraders\SpaceTraders\SpaceTraders.Windows\SpaceTraders.Windows.csproj;neutral
